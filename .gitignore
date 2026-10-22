@@ -25,5 +25,6 @@ dist-ssr
 
 raw-frames
 raw-frames-about
-public/frames
+# public/frames is intentionally COMMITTED — deployments (Vercel) build from git
+# and hang on the loading screen forever without the generated WebP frames.
 
